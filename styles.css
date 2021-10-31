@@ -55,6 +55,15 @@ input {
   border-color: #1e1e2056;
 }
 
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #1e1e20c9;
+}
+p {
+  display: flex;
+  align-items: center;
+}
 p > img {
   width: 2.2rem;
   height: 2.2rem;
@@ -100,9 +109,11 @@ p > img {
 .social-icons > img {
   width: 1rem;
   height: 1rem;
+  transition: opacity 0.4s;
 }
 .social-icons > img:hover {
   cursor: pointer;
+  opacity: 70%;
 }
 .info {
   background: #1e1e20;
@@ -114,8 +125,6 @@ p > img {
 
   width: 35%;
   height: 65%;
-
-  box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.5);
 
   padding-left: 4rem;
 }
