@@ -41,6 +41,7 @@ app.post('/', function (req, res) {
   const email = req.body.email
   const message = req.body.message
 
+  savingInContactList(email, name)
   sendEmail(name, email, message)
   res.send('POST request to the homepage')
 })
@@ -79,3 +80,5 @@ async function sendEmail(name, email, message) {
     console.error(err)
   }
 }
+
+async function savingInContactList(email, name) {}

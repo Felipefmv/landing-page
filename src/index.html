@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing page</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="Landing page icon" type="image/png" href="./images/l.png" />
+    <link rel="stylesheet" href="styles/styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
@@ -32,6 +33,7 @@
           id="name"
           type="text"
           autofocus
+          required
         />
         <input
           name="email"
@@ -39,6 +41,7 @@
           placeholder="Email"
           id="email"
           type="text"
+          required
         />
         <input
           name="message"
@@ -46,6 +49,7 @@
           placeholder="Message"
           id="message"
           type="text"
+          required
         />
         <button type="submit" id="submit">SEND</button>
       </form>
@@ -68,12 +72,7 @@
         <div class="square"></div>
       </div>
     </div>
-    <div
-      class="
-        social-icons
-        animate__animated animate__fadeInRightBig animate__delay-1s
-      "
-    >
+    <div class="social-icons animate__animated animate__fadeInRightBig">
       <img class="icon" src="./images/facebook.png" alt="facebook icon" />
       <img class="icon" src="./images/instagram.png" alt="instagram icon" />
       <img class="icon" src="./images/twitter.png" alt="twitter icon" />
