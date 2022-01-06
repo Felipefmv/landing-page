@@ -6,15 +6,19 @@
 
 ![gif](github/landing-page.gif)
 
+<p align="center">
+	<img src="github/AnimaçãoMobile.gif" width="300"/>
+</p>
+
 ## :dart: Objetivo
 
 Essa aplicação é uma página de contato, as animações foram feitas usando a biblioteca Animate e a estilização com o SASS. A aplicação está integrada com o Gmail usando a biblioteca Nodemailer. Quando os campos são preenchidos e a mensagem enviada, será recebida no e-mail cadastrado no ponto 3 de Executando os projeto.
+Projeto ainda está em construção.
 
 ## :hammer_and_wrench: Ferramentas
 
 - [Node](https://nodejs.org/)
 - [Nodemailer](https://nodemailer.com/)
-- [SASS](https://sass-lang.com/)
 - [Animate](https://animate.style/)
 - [Express](https://expressjs.com/)
 - [Yarn](https://yarnpkg.com/)
